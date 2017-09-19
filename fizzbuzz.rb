@@ -1,13 +1,12 @@
 def fizzbuzz(number)
   output = ''
   if number%3 == 0
-    output += "Fizz"
+    "Fizz"
   end
   if number%5 == 0
-    output += "Buzz"
+    "Buzz"
   end
-  if number%3 != 0 || number%5 != 0
-    output = nil
+  if number%3 == 0 && number%5 == 0
+    "FizzBuzz"
   end
-  output
 end
