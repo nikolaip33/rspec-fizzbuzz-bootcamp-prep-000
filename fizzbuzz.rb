@@ -6,5 +6,7 @@ def fizzbuzz(number)
   if number%5 == 0
     output += "Buzz"
   end
-  output
+  if numbmer%3 != 0 || number%5 != 0
+    output = nil
+  end
 end
