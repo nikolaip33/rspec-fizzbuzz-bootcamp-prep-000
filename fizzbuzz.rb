@@ -9,4 +9,5 @@ def fizzbuzz(number)
   if numbmer%3 != 0 || number%5 != 0
     output = nil
   end
+  output
 end
